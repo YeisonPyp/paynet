@@ -17,7 +17,7 @@ const Formulario3 = ({ onNext, showAlert, onReset, disabled }) => {
   });
 
   const [modalOpen, setModalOpen] = useState(false);
-  const [transactionSuccess, setTransactionSuccess] = useState(false);
+  const [ setTransactionSuccess] = useState(false);
 
   const validate = () => {
     if (formData.pago === '') {
